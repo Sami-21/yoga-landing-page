@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <NavBar />
+    <div class="mt-40">
+      <BalanceSection />
+    </div>
+    <PregnantWomenSection />
+    <Programs />
+    <YogaBreathing />
+    <PromotionSection />
+    <GalerySection />
+    <YogaTrainingShowSection />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "./components/NavBar";
+import BalanceSection from "./components/BalanceSection";
+import PregnantWomenSection from "./components/PregnantWomenSection";
+import Programs from "./components/3Programs";
+import YogaBreathing from "./components/YogaBreathingSection";
+import PromotionSection from "./components/PromotionSection";
+import GalerySection from "./components/GalerySection";
+import YogaTrainingShowSection from "./components/YogaTrainingShowSection";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    NavBar,
+    BalanceSection,
+    PregnantWomenSection,
+    Programs,
+    YogaBreathing,
+    PromotionSection,
+    GalerySection,
+    YogaTrainingShowSection,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>

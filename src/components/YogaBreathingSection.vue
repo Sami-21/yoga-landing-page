@@ -26,10 +26,8 @@
         </span></v-btn
       >
     </div>
-    <div
-      class="md:w-1/2 w-full h-full flex justify-center items-center bg-black"
-    >
-      <div class="ImageContainer w-60 h-60 bg-red-400"></div>
+    <div class="md:w-1/2 w-full h-full flex justify-center items-center">
+      <div class="ImageContainer"></div>
     </div>
   </div>
 </template>

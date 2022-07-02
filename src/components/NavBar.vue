@@ -4,7 +4,7 @@
   >
     <ul
       id="NavItems"
-      class="md:flex md:h-full md:relative md:top-0 md:left-0 flex-col md:flex-row md:justify-between justify-evenly items-center lg:text-3xl text-xl font-light absolute fullTop left-0 text-center md:opacity-100 opacity-0 h-60 md:py-4 z-10 border-t-2 md:border-t-0 text-gray-600"
+      class="xl:w-8/12 lg:w-10/12 md:w-full md:flex md:h-full md:relative md:top-0 md:left-0 flex-col md:flex-row md:justify-between justify-evenly items-center xl:text-3xl lg:text-2xl text-xl font-light absolute fullTop left-0 text-center md:opacity-100 opacity-0 h-60 md:py-4 md:px-12 z-10 border-t-2 md:border-t-0 text-gray-600"
     >
       <li class="cursor-pointer">Home</li>
       <li class="cursor-pointer">About</li>
@@ -15,11 +15,11 @@
       <li class="cursor-pointer">Contact</li>
     </ul>
 
-    <!-- <div @click="toggleMenu()" id="NavBarIcon" class="cursor-pointer md:hidden">
+    <div @click="toggleMenu()" id="NavBarIcon" class="cursor-pointer md:hidden">
       <div class="bar1 h-1 w-9 bg-black my-2 duration-300"></div>
       <div class="bar2 h-1 w-9 bg-black my-2 duration-300"></div>
       <div class="bar3 h-1 w-9 bg-black my-2 duration-300"></div>
-    </div> -->
+    </div>
   </nav>
 </template>
 
@@ -46,7 +46,7 @@ export default {
 
 <style scope>
 #NavItems {
-  width: 65vw;
+  /* width: 65vw; */
   list-style: none;
 }
 
@@ -63,6 +63,7 @@ export default {
     height: 100vh;
     transition-duration: 500ms;
     z-index: -2;
+    background-color: #fff;
   }
   .fullTop {
     top: -100vh;

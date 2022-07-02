@@ -1,6 +1,13 @@
 <template>
-  <div id="ShowReel" class="min-h-screen w-screen flex items-center gap-10">
-    <div class="md:w-1/2 w-full h-full px-12 flex justify-center"></div>
+  <div
+    id="ShowReel"
+    class="w-screen flex items-center justify-between gap-10 py-44"
+  >
+    <div
+      class="md:w-1/2 w-full h-full pl-28 pr-12 flex justify-center items-center"
+    >
+      <div class="videoContainer bg-black w-full"></div>
+    </div>
     <div
       class="md:w-1/2 w-full h-full flex flex-col justify-center items-start pr-40"
     >
@@ -14,17 +21,17 @@
         aliquam esse doloremque cum nesciunt alias minus blanditiis consequuntur
         facilis! Asperiores.
       </p>
-      <v-btn
-        color="#e8c8c3"
-        width="250px"
-        height="65px"
-        class="mt-20 py-4 px-8"
-        large
-        elevation="0"
-        ><span class="text-gray-600 text-3xl font-bold"
-          >JOIN US NOW</span
-        ></v-btn
-      >
+      <div class="mt-20">
+        <v-btn color="rgb(75 85 99)" tile height="60" width="20" class="mr-16">
+          <v-icon large color="#fff">mdi-facebook</v-icon>
+        </v-btn>
+        <v-btn color="rgb(75 85 99)" tile height="60" width="20" class="mr-16">
+          <v-icon large color="#fff">mdi-instagram</v-icon>
+        </v-btn>
+        <v-btn color="rgb(75 85 99)" tile height="60" width="20" class="mr-16">
+          <v-icon large color="#fff">mdi-twitter</v-icon>
+        </v-btn>
+      </div>
     </div>
   </div>
 </template>
@@ -37,5 +44,9 @@ export default {};
 #ShowReel {
   background-color: #e5ccc6;
   color: #817f7c;
+}
+.videoContainer {
+  height: 550px;
+  box-shadow: 10px 10px 36px 0px rgba(0, 0, 0, 0.75);
 }
 </style>

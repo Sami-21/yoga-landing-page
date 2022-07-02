@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-screen flex items-center gap-10">
+  <div class="h-screen w-screen flex items-center lg:flex-row flex-col gap-10">
     <div class="md:w-1/2 w-full h-full px-12 flex justify-center"></div>
     <div
       class="md:w-1/2 w-full h-full flex flex-col justify-center items-start pr-24"
@@ -10,7 +10,7 @@
       >
         Balance Your Body and Mind
       </h1>
-      <p class="text-2xl text-gray-500 leading-normal">
+      <p class="xl:text-2xl md:text-xl text-lg text-gray-500 leading-normal">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
         aliquam esse doloremque cum nesciunt alias minus blanditiis consequuntur
         facilis! Asperiores.
@@ -37,5 +37,15 @@ export default {};
 <style scoped>
 #title {
   font-size: 108px;
+}
+@media (max-width: 1280px) {
+  #title {
+    font-size: 92px;
+  }
+}
+@media (max-width: 768px) {
+  #title {
+    font-size: 74px;
+  }
 }
 </style>

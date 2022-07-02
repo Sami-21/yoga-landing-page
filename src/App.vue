@@ -10,6 +10,8 @@
     <PromotionSection />
     <GalerySection />
     <YogaTrainingShowSection />
+    <ContactSection />
+    <Footer />
   </v-app>
 </template>
 
@@ -22,6 +24,8 @@ import YogaBreathing from "./components/YogaBreathingSection";
 import PromotionSection from "./components/PromotionSection";
 import GalerySection from "./components/GalerySection";
 import YogaTrainingShowSection from "./components/YogaTrainingShowSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/FooterSection";
 
 export default {
   name: "App",
@@ -35,6 +39,8 @@ export default {
     PromotionSection,
     GalerySection,
     YogaTrainingShowSection,
+    ContactSection,
+    Footer,
   },
 
   data: () => ({

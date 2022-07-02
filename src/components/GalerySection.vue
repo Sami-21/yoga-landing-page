@@ -1,6 +1,5 @@
 <template>
-  <section
-    id="DanceTour"
+  <div
     class="min-h-screen w-screen flex flex-col items-center py-28 md:px-32 sm:px-16 px-8"
   >
     <div class="lg:w-3/4 w-full mx-auto text-center px-16">
@@ -17,11 +16,11 @@
     <div
       class="grid gap-40 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 px-24"
     >
-      <CardComponent CardTitle="AMERICA" ImageName="images.png" />
-      <CardComponent CardTitle="ASIA" ImageName="M2.jpeg" />
-      <CardComponent CardTitle="AUSTRALIA" ImageName="M1.jpeg" />
+      <CardComponent />
+      <CardComponent />
+      <CardComponent />
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

@@ -6,11 +6,15 @@
     <div
       class="lg:w-1/2 w-full h-full lg:pl-28 lg:pr-12 px-10 flex justify-center items-center"
     >
-      <div
-        class="videoContainer bg-black w-full flex justify-center items-center"
+      <video
+        autoplay
+        muted
+        loop
+        class="videoContainer w-full flex justify-center items-center"
       >
-        <!-- <v-icon dark size="225">mdi-play</v-icon> -->
-      </div>
+        <source src="" type="video/mp4" />
+      </video>
+      <!-- <v-icon dark size="225">mdi-play</v-icon> -->
     </div>
     <div
       class="lg:w-1/2 w-full h-full flex flex-col justify-center lg:items-start items-center lg:pr-40 px-8"

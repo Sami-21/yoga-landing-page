@@ -1,11 +1,16 @@
 <template>
   <div
-    class="min-h-screen w-screen flex flex-col items-center py-28 md:px-32 sm:px-16 px-8 relative"
+    class="Box min-h-screen w-screen flex flex-col items-center py-28 relative overflow-hidden"
   >
     <img
       src="@/assets/GaleryTopRight .png"
       alt=""
-      class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
+      class="absolute md:top-0 -top-10 md:right-0 -right-5 md:scale-100 scale-75"
+    />
+    <img
+      src="@/assets/GaleryBottomRight.png"
+      alt=""
+      class="absolute bottom-10 md:right-20 -right-10 md:scale-100 scale-75"
     />
     <img
       src="@/assets/GaleryDots.png"
@@ -20,7 +25,7 @@
     <img
       src="@/assets/GaleryBottomLeft.png"
       alt="flower"
-      class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 -scale-x-100"
+      class="absolute md:bottom-0 -bottom-6 md:left-0 -left-7 md:scale-100 scale-75"
     />
     <div class="lg:w-3/4 w-full mx-auto text-center px-16">
       <h1
@@ -36,7 +41,7 @@
       </p>
     </div>
     <div
-      class="grid gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-24 px-6"
+      class="grid 2xl:gap-32 gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0"
     >
       <CardComponent ImageName="CardPic1.png" />
       <CardComponent ImageName="CardPic2.png" />
@@ -52,4 +57,15 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.Box {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+@media (max-width: 768px) {
+  .Box {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+</style>

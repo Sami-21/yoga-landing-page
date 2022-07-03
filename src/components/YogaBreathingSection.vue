@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen w-screen flex md:flex-row flex-col-reverse items-center gap-10 py-16 p-8 relative"
+    class="min-h-screen w-screen flex md:flex-row flex-col-reverse items-center gap-10 py-16 p-8 relative overflow-hidden"
   >
     <img
       src="@/assets/breathTopLeftFlower.png"

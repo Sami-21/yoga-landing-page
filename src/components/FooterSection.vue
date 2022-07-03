@@ -48,7 +48,7 @@
       </ul>
     </div>
     <div class="w-full md:h-full h-1/2 flex flex-col md:text-left div5">
-      <div class="w-full h-32"></div>
+      <div class="flowerIcon mb-8"></div>
       <p class="text-lg mb-2 md:text-left">Copyright &copy; 2020 Freepik</p>
       <p class="text-lg mb-12 md:text-left">
         Company S.L. All rights reserved.
@@ -80,6 +80,16 @@ footer {
   background: #484f5b;
   min-height: 600px;
   color: #fff;
+}
+.flowerIcon {
+  position: relative;
+  right: 15px;
+  width: 150px;
+  height: 75px;
+  background-image: url("@/assets/footerIcon.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 .div1 {
   grid-area: 1 / 1 / 13 / 4;
@@ -121,6 +131,13 @@ footer {
 @media (max-width: 768px) {
   footer ul {
     text-align: center;
+  }
+
+  .flowerIcon {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    background-position: center center;
   }
   .iconContianer {
     margin: 0 auto;

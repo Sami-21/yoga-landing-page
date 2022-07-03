@@ -9,10 +9,9 @@
     ></div>
     <div class="md:w-1/2 md:block hidden"></div>
     <div
-      class="md:w-1/2 w-full h-full flex flex-col justify-center md:pr-24 px-12 z-20"
+      class="textContainer md:w-1/2 w-full h-full flex flex-col justify-center md:pr-24 px-12 z-20"
     >
       <h1
-        id="title"
         class="text-gray-600 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold leading-tight tracking-wider md:mb-20 mb-12 z-40 relative"
       >
         Join Now and Get 50% Off
@@ -74,6 +73,7 @@ export default {};
 @media (max-width: 768px) {
   .textContainer {
     align-items: center;
+    text-align: center;
   }
   #PromotionImage {
     opacity: 0.75;

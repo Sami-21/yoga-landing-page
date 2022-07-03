@@ -15,7 +15,7 @@
     /><img
       src="@/assets/flowerBottomRight.png"
       alt="flower"
-      class="absolute md:bottom-0 bottom-1 md:right-0 -right-8 md:scale-100 scale-75"
+      class="absolute md:bottom-0 -bottom-5 md:right-0 -right-8 md:scale-100 scale-75"
     />
     <img
       src="@/assets/BalanceWomen.png"

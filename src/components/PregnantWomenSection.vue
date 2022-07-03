@@ -4,7 +4,6 @@
       class="md:w-1/2 w-full h-full flex flex-col justify-center items-start md:pl-24 py-16 md:px-0 textContainer"
     >
       <h1
-        id="title"
         class="text-gray-600 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold leading-tight tracking-wider md:mb-20 mb-10"
       >
         Pregnant Women Program
@@ -46,10 +45,11 @@ export default {};
 @media (max-width: 768px) {
   #Background {
     background-image: url("@/assets/PregnantMobile.png");
-    background-position: right;
+    background-position: right right;
   }
   .textContainer {
     align-items: center;
+    text-align: center;
   }
 }
 </style>

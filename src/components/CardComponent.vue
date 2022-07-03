@@ -8,7 +8,7 @@
       >
         <v-img
           class="white--text align-end"
-          height="350px"
+          height="550px"
           :src="require(`@/assets/${ImageName}`)"
         >
         </v-img>

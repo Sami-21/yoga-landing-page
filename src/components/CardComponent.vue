@@ -3,18 +3,18 @@
     <template v-slot:default="{ hover }">
       <v-card
         tile
-        class="mx-auto w-full CardContainer text-center duration-200"
+        class="mx-auto w-full CardContainer text-center"
         :elevation="hover ? 20 : 10"
       >
         <v-img
           class="white--text align-end"
-          height="400px"
-          src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+          height="350px"
+          :src="require(`@/assets/${ImageName}`)"
         >
         </v-img>
 
-        <v-card-text class="text--primary px-4">
-          <div class="text-gray-600 text-5xl pt-8 font-semibold mb-4">
+        <v-card-text class="text--primary px-4 pb-6">
+          <div class="text-gray-600 text-3xl pt-8 font-semibold mb-4">
             Facilis Gravida
           </div>
 
@@ -29,12 +29,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    ImageName: String,
+  },
+};
 </script>
 
 <style scoped>
 .CardContainer {
-  height: 650px;
+  height: fit-content;
+  transition-duration: 1000ms;
+}
+.CardContainer:hover {
+  transform: translateY(-30px) scale(1.1);
 }
 
 #textContainer {

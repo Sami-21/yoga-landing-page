@@ -1,28 +1,49 @@
 <template>
-  <div class="h-screen w-screen flex items-center lg:flex-row flex-col gap-10">
-    <div class="md:w-1/2 w-full h-full px-12 flex justify-center"></div>
+  <div
+    id="Background"
+    class="min-h-screen w-screen flex items-center lg:flex-row flex-col gap-10 py-16 relative"
+  >
+    <img
+      src="@/assets/flowertopleft.png"
+      alt="flower"
+      class="absolute top-0 md:left-0 -left-10 md:scale-100 scale-75"
+    />
+    <img
+      src="@/assets/flowerTopRight.png"
+      alt="flower"
+      class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
+    /><img
+      src="@/assets/flowerBottomRight.png"
+      alt="flower"
+      class="absolute md:bottom-0 bottom-1 md:right-0 -right-8 md:scale-100 scale-75"
+    />
+    <img
+      src="@/assets/BalanceWomen.png"
+      alt="women"
+      class="lg:w-1/2 w-full h-fit px-12 flex justify-center z-20 md:p-0 p-8"
+    />
     <div
-      class="md:w-1/2 w-full h-full flex flex-col justify-center items-start pr-24"
+      class="textContainer lg:w-1/2 w-full h-full flex flex-col justify-center items-start md:pr-24 md:pl-0 px-16"
     >
       <h1
         id="title"
-        class="text-gray-600 font-bold leading-tight text-left tracking-wider mb-20"
+        class="text-gray-600 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold leading-tight tracking-wider md:mb-32 mb-10"
       >
         Balance Your Body and Mind
       </h1>
-      <p class="xl:text-2xl md:text-xl text-lg text-gray-500 leading-normal">
+      <p class="xl:text-2xl md:text-xl text-gray-500 leading-normal">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
         aliquam esse doloremque cum nesciunt alias minus blanditiis consequuntur
         facilis! Asperiores.
       </p>
       <v-btn
         color="#e8c8c3"
-        width="250px"
+        width="225px"
         height="65px"
-        class="mt-20 py-4 px-8"
+        class="md:mt-20 mt-10 py-4 px-8"
         large
         elevation="0"
-        ><span class="text-gray-600 text-3xl font-bold"
+        ><span class="text-gray-600 xl:text-2xl lg:text-xl md:text-lg font-bold"
           >JOIN US NOW</span
         ></v-btn
       >
@@ -35,17 +56,13 @@ export default {};
 </script>
 
 <style scoped>
-#title {
-  font-size: 108px;
-}
-@media (max-width: 1280px) {
-  #title {
-    font-size: 92px;
+@media (max-width: 1024px) {
+  h1,
+  p {
+    text-align: center;
   }
-}
-@media (max-width: 768px) {
-  #title {
-    font-size: 74px;
+  .textContainer {
+    align-items: center;
   }
 }
 </style>

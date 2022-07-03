@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <NavBar />
-    <div class="mt-40">
+    <div class="md:mt-40 mt-24 overflow-hidden">
       <BalanceSection />
     </div>
     <PregnantWomenSection />

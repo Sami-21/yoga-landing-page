@@ -2,32 +2,57 @@
   <div
     class="w-screen flex justify-center items-center relative overflow-hidden py-20"
   >
+    <img
+      src="@/assets/GaleryBottomRight.png"
+      alt=""
+      class="absolute bottom-10 md:right-20 -right-10 md:scale-100 scale-75 z-10"
+    />
+    <img
+      src="@/assets/GaleryTopRight .png"
+      alt=""
+      class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
+    />
+    <img
+      src="@/assets/GaleryDots.png"
+      alt=""
+      class="absolute bottom-32 md:left-32 -left-20 md:scale-100 scale-75 z-10"
+    />
+    <img
+      src="@/assets/GaleryTopLeft.png"
+      alt=""
+      class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75 z-10"
+    />
+    <img
+      src="@/assets/GaleryBottomLeft.png"
+      alt="flower"
+      class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 z-10 -scale-x-100"
+    />
     <div class="lg:w-9/12 w-full text-center px-16">
       <h1
-        class="lg:text-7xl md:text-6xl text-5xl tracking-wider font-bold mb-16 text-gray-600"
+        class="2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl tracking-wider font-bold mb-16 text-gray-600"
       >
         Get In Touch
       </h1>
-      <p class="lg:text-3xl md:text-2xl text-xl mb-16 text-gray-500">
+      <p class="xl:text-2xl md:text-xl mb-16 text-gray-500">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
         perferendis dolorum asperiores maiores alias maxime laborum laudantium
         saepe soluta iure?
       </p>
-      <form action="" class="mx-auto">
+      <form action="" class="z-30 mx-auto">
         <input
-          class="w-full p-6 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
+          class="w-full md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
           type="text"
           name="name"
           placeholder="Your Name"
         />
         <input
-          class="w-full p-6 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
+          class="w-full md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
           type="text"
           name="gender"
           placeholder="Gender"
         />
         <textarea
-          class="w-full h-48 p-6 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
+          class="w-full h-48 md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
           name="message"
           placeholder="Message"
         />
@@ -38,7 +63,8 @@
           class="mt-8 py-4 px-8"
           large
           elevation="0"
-          ><span class="text-gray-600 text-2xl font-extrabold"
+          ><span
+            class="text-gray-600 xl:text-2xl lg:text-xl md:text-lg font-extrabold"
             >SEND MESSAGE</span
           ></v-btn
         >
@@ -56,6 +82,7 @@ input[type="text"],
 textarea {
   background: #efefef;
   border: 3px solid #c6c6c6;
+  z-index: 999;
 }
 /* input[type="text"]::placeholder,
 textarea::placeholder {

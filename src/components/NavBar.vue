@@ -1,10 +1,11 @@
 <template>
   <nav
-    class="w-screen h-40 z-10 flex justify-end items-center font-bold px-16 absolute top-0 left-0 border-solid border-2"
+    class="w-screen md:h-40 h-28 z-50 flex justify-between items-center font-bold px-16 absolute top-0 left-0"
   >
+    <img src="@/assets/flower.png" alt="flower" class="duration-300" />
     <ul
       id="NavItems"
-      class="xl:w-8/12 lg:w-10/12 md:w-full md:flex md:h-full md:relative md:top-0 md:left-0 flex-col md:flex-row md:justify-between justify-evenly items-center xl:text-3xl lg:text-2xl text-xl font-light absolute fullTop left-0 text-center md:opacity-100 opacity-0 h-60 md:py-4 md:px-12 z-10 border-t-2 md:border-t-0 text-gray-600"
+      class="xl:w-8/12 lg:w-10/12 md:w-full md:flex md:h-full md:relative md:top-0 md:left-0 flex-col md:flex-row md:justify-between justify-evenly items-center xl:text-3xl lg:text-2xl text-xl font-light absolute fullTop left-0 text-center md:opacity-100 opacity-0 h-60 md:py-4 z-20 border-t-2 md:border-t-0 text-gray-600"
     >
       <li class="cursor-pointer">Home</li>
       <li class="cursor-pointer">About</li>
@@ -30,7 +31,7 @@ export default {
   }),
   methods: {
     toggleMenu() {
-      console.log("test");
+      document.querySelector("img").classList.toggle("opacity-0");
       document.querySelector("#NavItems").classList.toggle("fullTop");
       document.querySelector("#NavItems").classList.toggle("top-0");
       document.querySelector("#NavItems").classList.toggle("opacity-0");

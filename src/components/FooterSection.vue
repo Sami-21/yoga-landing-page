@@ -14,7 +14,7 @@
       <p class="xl:text-xl md:text-lg mb-0 md:text-left">www.yourdomain.com</p>
     </div>
 
-    <div class="w-full h-full div2 pb-4 border-b-2 border-gray-400">
+    <div class="w-full h-full div2 pb-8 border-b-2 border-gray-400">
       <h1 class="text-lg md:text-left font-bold mb-2">Sitemap</h1>
       <ul class="pl-0 text-lg leading-8">
         <li class="mb-2">Home</li>
@@ -25,7 +25,7 @@
         <li class="">Contact</li>
       </ul>
     </div>
-    <div class="w-full h-full div3 pb-4 border-b-2 border-gray-400">
+    <div class="w-full h-full div3 pb-8 border-b-2 border-gray-400">
       <h1 class="text-lg md:text-left font-bold mb-2">Lorem Ipsum</h1>
       <ul class="pl-0 text-lg leading-8">
         <li class="mb-2">Neque</li>
@@ -36,7 +36,7 @@
         <li class="">Enim Lobortis</li>
       </ul>
     </div>
-    <div class="w-full h-full div4 pb-4 border-b-2 border-gray-400">
+    <div class="w-full h-full div4 pb-8 border-b-2 border-gray-400">
       <h1 class="text-lg md:text-left font-bold mb-2">Sit Amet</h1>
       <ul class="pl-0 text-lg leading-8">
         <li class="mb-2">Neque</li>
@@ -136,7 +136,6 @@ footer {
   .flowerIcon {
     width: 100%;
     height: 100%;
-    right: 0;
     background-position: center center;
   }
   .iconContianer {

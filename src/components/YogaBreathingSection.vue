@@ -3,20 +3,22 @@
     class="min-h-screen w-screen flex md:flex-row flex-col-reverse items-center gap-10 py-16 p-8 relative overflow-hidden"
   >
     <img
+      data-aos="fade-down-right"
       src="@/assets/breathTopLeftFlower.png"
       alt="flower"
       class="absolute md:top-0 -top-4 md:left-0 -left-4 md:scale-100 scale-75"
     />
     <img
+      data-aos="fade-up-right"
       src="@/assets/breathBottomLeftFlower.png"
       alt="flower"
       class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 -scale-x-100"
     />
     <div
+      data-aos="fade-right"
       class="md:w-1/2 w-full h-full flex flex-col justify-center md:items-start items-center md:pl-24 md:px-0 px-12"
     >
       <h1
-        id="title"
         class="text-gray-600 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold leading-tight tracking-wider md:mb-20 mb-12 textContainer"
       >
         Yoga Breathing or Pranayama
@@ -42,12 +44,19 @@
     </div>
     <div
       id="Background"
+      data-aos="zoom-in-up"
       class="md:w-1/2 sm:w-full sm:h-full w-72 h-72 flex justify-center items-center"
     ></div>
   </div>
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 750,
+});
 export default {};
 </script>
 

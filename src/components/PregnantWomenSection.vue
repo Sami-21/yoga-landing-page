@@ -1,6 +1,7 @@
 <template>
   <div id="Background" class="min-h-screen w-screen flex items-center gap-10">
     <div
+      data-aos="fade-right"
       class="md:w-1/2 w-full h-full flex flex-col justify-center items-start md:pl-24 py-16 md:px-0 textContainer"
     >
       <h1
@@ -30,6 +31,13 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 750,
+});
+
 export default {};
 </script>
 

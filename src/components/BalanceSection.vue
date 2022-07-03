@@ -4,25 +4,30 @@
     class="min-h-screen w-screen flex items-center lg:flex-row flex-col gap-10 py-16 relative"
   >
     <img
+      data-aos="fade-right"
       src="@/assets/flowertopleft.png"
       alt="flower"
       class="absolute top-0 md:left-0 -left-10 md:scale-100 scale-75"
     />
     <img
+      data-aos="fade-left"
       src="@/assets/flowerTopRight.png"
       alt="flower"
       class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
     /><img
+      data-aos="fade-up-left"
       src="@/assets/flowerBottomRight.png"
       alt="flower"
       class="absolute md:bottom-0 -bottom-5 md:right-0 -right-8 md:scale-100 scale-75"
     />
     <img
+      data-aos="zoom-in"
       src="@/assets/BalanceWomen.png"
       alt="women"
       class="lg:w-1/2 w-full h-fit px-12 flex justify-center z-20 md:p-0 p-8"
     />
     <div
+      data-aos="fade-left"
       class="textContainer lg:w-1/2 w-full h-full flex flex-col justify-center items-start md:pr-24 md:pl-0 px-16"
     >
       <h1
@@ -52,6 +57,12 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 750,
+});
 export default {};
 </script>
 

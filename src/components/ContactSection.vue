@@ -2,7 +2,36 @@
   <div
     class="w-screen flex justify-center items-center relative overflow-hidden py-20"
   >
-    <div class="lg:w-9/12 w-full text-center px-16">
+    <img
+      data-aos="fade-down-left"
+      src="@/assets/GaleryTopRight .png"
+      alt=""
+      class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
+    />
+    <img
+      data-aos="fade-up-left"
+      src="@/assets/GaleryBottomRight.png"
+      alt=""
+      class="absolute bottom-10 md:right-20 -right-10 md:scale-100 scale-75"
+    />
+    <img
+      src="@/assets/GaleryDots.png"
+      alt=""
+      class="absolute bottom-32 md:left-32 -left-20 md:scale-100 scale-75"
+    />
+    <img
+      data-aos="fade-down-right"
+      src="@/assets/GaleryTopLeft.png"
+      alt=""
+      class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75"
+    />
+    <img
+      data-aos="fade-up-right"
+      src="@/assets/GaleryBottomLeft.png"
+      alt="flower"
+      class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 -scale-x-100"
+    />
+    <div data-aos="fade-down" class="lg:w-9/12 w-full text-center px-16">
       <h1
         class="2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl tracking-wider font-bold mb-16 text-gray-600"
       >
@@ -13,32 +42,8 @@
         perferendis dolorum asperiores maiores alias maxime laborum laudantium
         saepe soluta iure?
       </p>
-      <img
-        src="@/assets/GaleryTopRight .png"
-        alt=""
-        class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
-      />
-      <img
-        src="@/assets/GaleryBottomRight.png"
-        alt=""
-        class="absolute bottom-10 md:right-20 -right-10 md:scale-100 scale-75"
-      />
-      <img
-        src="@/assets/GaleryDots.png"
-        alt=""
-        class="absolute bottom-32 md:left-32 -left-20 md:scale-100 scale-75"
-      />
-      <img
-        src="@/assets/GaleryTopLeft.png"
-        alt=""
-        class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75"
-      />
-      <img
-        src="@/assets/GaleryBottomLeft.png"
-        alt="flower"
-        class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 -scale-x-100"
-      />
-      <form class="mx-auto relative z-50">
+
+      <form data-aos="fade-up" class="mx-auto relative z-50">
         <input
           class="w-full md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
           type="text"
@@ -74,6 +79,12 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 750,
+});
 export default {};
 </script>
 

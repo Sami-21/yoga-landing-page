@@ -41,7 +41,7 @@
       </p>
     </div>
     <div
-      class="grid 2xl:gap-32 gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0 overflow-hidden"
+      class="grid 2xl:gap-32 gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0"
     >
       <CardComponent ImageName="CardPic1.png" data-aos="fade-up" />
       <CardComponent ImageName="CardPic2.png" data-aos="fade-up" />

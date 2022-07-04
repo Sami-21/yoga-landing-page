@@ -1,7 +1,7 @@
 <template>
   <div
     id="ShowReel"
-    class="w-screen flex lg:flex-row flex-col-reverse items-center justify-between gap-10 lg:py-40 py-20"
+    class="w-screen flex lg:flex-row flex-col-reverse items-center justify-between gap-10 lg:py-40 py-20 overflow-hidden"
   >
     <div
       data-aos="fade-right"

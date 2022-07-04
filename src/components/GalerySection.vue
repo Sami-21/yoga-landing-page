@@ -3,31 +3,26 @@
     class="Box min-h-screen w-screen flex flex-col items-center py-28 relative overflow-hidden"
   >
     <img
-      data-aos="fade-down-left"
       src="@/assets/GaleryTopRight .png"
       alt=""
       class="absolute md:top-0 -top-10 md:right-0 -right-5 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-up-left"
       src="@/assets/GaleryBottomRight.png"
       alt=""
       class="absolute bottom-10 md:right-20 -right-10 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-down-right"
       src="@/assets/GaleryDots.png"
       alt=""
       class="absolute bottom-32 md:left-32 -left-20 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-down-right"
       src="@/assets/GaleryTopLeft.png"
       alt=""
       class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-down-right"
       src="@/assets/GaleryBottomLeft.png"
       alt="flower"
       class="absolute md:bottom-0 -bottom-6 md:left-0 -left-7 md:scale-100 scale-75"
@@ -46,7 +41,7 @@
       </p>
     </div>
     <div
-      class="grid 2xl:gap-32 gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0"
+      class="grid 2xl:gap-32 gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0 overflow-hidden"
     >
       <CardComponent ImageName="CardPic1.png" data-aos="fade-up" />
       <CardComponent ImageName="CardPic2.png" data-aos="fade-up" />

@@ -3,13 +3,11 @@
     class="min-h-screen w-screen flex md:flex-row flex-col-reverse items-center gap-10 py-16 p-8 relative overflow-hidden"
   >
     <img
-      data-aos="fade-down-right"
       src="@/assets/breathTopLeftFlower.png"
       alt="flower"
       class="absolute md:top-0 -top-4 md:left-0 -left-4 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-up-right"
       src="@/assets/breathBottomLeftFlower.png"
       alt="flower"
       class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 -scale-x-100"

@@ -1,6 +1,5 @@
 <template>
   <nav
-    data-aos="fade-in"
     class="w-screen md:h-40 h-28 z-50 flex justify-between items-center font-bold px-16 absolute top-0 left-0"
   >
     <img src="@/assets/flower.png" alt="flower" class="duration-300" />
@@ -26,13 +25,6 @@
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init({
-  duration: 750,
-});
-
 export default {
   data: () => ({
     MenuClosed: true,

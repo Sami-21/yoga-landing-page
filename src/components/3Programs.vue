@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-20 lg:px-20 px-10 py-24 text-center"
+    class="w-screen grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-20 lg:px-20 px-10 py-24 text-center overflow-hidden"
   >
     <div
       data-aos="zoom-in-up"

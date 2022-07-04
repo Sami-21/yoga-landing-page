@@ -1,7 +1,7 @@
 <template>
   <div
     id="BackgroundColor"
-    class="min-h-screen w-screen flex items-center gap-10 py-16 relative"
+    class="min-h-screen w-screen flex items-center gap-10 py-16 relative overflow-hidden"
   >
     <div
       id="PromotionImage"

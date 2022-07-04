@@ -3,13 +3,11 @@
     class="w-screen flex justify-center items-center relative overflow-hidden py-20"
   >
     <img
-      data-aos="fade-down-left"
       src="@/assets/GaleryTopRight .png"
       alt=""
-      class="absolute top-0 md:right-0 -right-10 md:scale-100 scale-75"
+      class="absolute md:top-0 -top-10 md:right-0 -right-5 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-up-left"
       src="@/assets/GaleryBottomRight.png"
       alt=""
       class="absolute bottom-10 md:right-20 -right-10 md:scale-100 scale-75"
@@ -20,16 +18,14 @@
       class="absolute bottom-32 md:left-32 -left-20 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-down-right"
       src="@/assets/GaleryTopLeft.png"
       alt=""
       class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75"
     />
     <img
-      data-aos="fade-up-right"
       src="@/assets/GaleryBottomLeft.png"
       alt="flower"
-      class="absolute md:bottom-0 -bottom-4 md:left-0 -right-2 md:scale-100 scale-75 -scale-x-100"
+      class="absolute md:bottom-0 -bottom-6 md:left-0 -left-7 md:scale-100 scale-75"
     />
     <div data-aos="fade-down" class="lg:w-9/12 w-full text-center px-16">
       <h1

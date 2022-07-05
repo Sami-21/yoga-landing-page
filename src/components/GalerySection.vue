@@ -20,7 +20,7 @@
     <img
       src="@/assets/GaleryTopLeft.png"
       alt=""
-      class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75"
+      class="sm:absolute hidden top-32 md:left-12 -left-16 md:scale-100 scale-50"
     />
     <img
       src="@/assets/GaleryBottomLeft.png"
@@ -41,7 +41,7 @@
       </p>
     </div>
     <div
-      class="grid 2xl:gap-32 gap-28 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0"
+      class="grid 2xl:gap-32 gap-20 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-full min-h-fit mt-24 md:px-20 px-0"
     >
       <CardComponent ImageName="CardPic1.png" data-aos="fade-up" />
       <CardComponent ImageName="CardPic2.png" data-aos="fade-up" />
@@ -53,8 +53,8 @@
 <script>
 import CardComponent from "./CardComponent.vue";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
+
 AOS.init({
   duration: 750,
 });
@@ -68,7 +68,7 @@ export default {
   padding-left: 8rem;
   padding-right: 8rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .Box {
     padding-left: 1rem;
     padding-right: 1rem;

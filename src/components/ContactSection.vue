@@ -20,7 +20,7 @@
     <img
       src="@/assets/GaleryTopLeft.png"
       alt=""
-      class="absolute top-32 md:left-12 left-4 md:scale-100 scale-75"
+      class="md:absolute md:block hidden top-22 md:left-12 left-4 md:scale-100 scale-75"
     />
     <img
       src="@/assets/GaleryBottomLeft.png"
@@ -41,19 +41,19 @@
 
       <form data-aos="fade-up" class="mx-auto relative z-50">
         <input
-          class="w-full md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
+          class="w-full md:p-6 p-2 bg-white text-xl sm:text-3xl outline-0 text-inherit md:mb-10 sm:mb-6 mb-3 placeholder:text-gray-300"
           type="text"
           name="name"
           placeholder="Your Name"
         />
         <input
-          class="w-full md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
+          class="w-full md:p-6 p-2 bg-white text-xl sm:text-3xl outline-0 text-inherit md:mb-10 sm:mb-6 mb-3 placeholder:text-gray-300"
           type="text"
           name="gender"
           placeholder="Gender"
         />
         <textarea
-          class="w-full h-48 md:p-6 p-4 bg-white text-xl sm:text-3xl outline-0 text-inherit mb-10 placeholder:text-gray-300"
+          class="w-full h-48 md:p-6 p-2 bg-white text-xl sm:text-3xl outline-0 text-inherit md:mb-10 sm:mb-6 mb-0 placeholder:text-gray-300"
           name="message"
           placeholder="Message"
         />
@@ -76,8 +76,8 @@
 
 <script>
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css"; 
+
 AOS.init({
   duration: 750,
 });

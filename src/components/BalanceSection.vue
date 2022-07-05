@@ -63,7 +63,7 @@ export default {};
 </script>
 
 <style scoped>
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   h1,
   p {
     text-align: center;

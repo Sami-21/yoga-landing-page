@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen w-screen flex md:flex-row flex-col-reverse items-center gap-10 py-16 p-8 relative overflow-hidden"
+    class="min-h-screen w-screen flex lg:flex-row flex-col-reverse items-center gap-10 py-16 p-8 relative overflow-hidden"
   >
     <img
       src="@/assets/breathTopLeftFlower.png"
@@ -22,7 +22,7 @@
         Yoga Breathing or Pranayama
       </h1>
       <p
-        class="xl:text-2xl md:text-xl text-gray-500md:text-left leading-normal"
+        class="xl:text-2xl md:text-xl text-gray-500 leading-normal"
       >
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
         aliquam esse doloremque cum nesciunt alias minus blanditiis consequuntur
@@ -32,7 +32,7 @@
         color="#e8c8c3"
         width="250px"
         height="65px"
-        class="md:mt-20 mt-10 py-4 px-8"
+        class="md:mt-20 mt-10 py-4 px-8 lg:mx-0 mx-auto"
         large
         elevation="0"
         ><span class="text-gray-600 xl:text-2xl lg:text-xl md:text-lg font-bold"
@@ -43,15 +43,15 @@
     <div
       id="Background"
       data-aos="zoom-in-up"
-      class="md:w-1/2 sm:w-full sm:h-full w-72 h-72 flex justify-center items-center"
+      class="lg:w-1/2 sm:w-full sm:h-full w-72 h-72 flex justify-center items-center"
     ></div>
   </div>
 </template>
 
 <script>
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css"; 
+
 AOS.init({
   duration: 750,
 });
@@ -66,7 +66,7 @@ export default {};
   background-position: center center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   h1,
   p {
     text-align: center;

@@ -1,8 +1,8 @@
 <template>
   <v-card tile class="mx-auto w-full CardContainer text-center" elevation="10">
     <v-img
-      class="white--text"
-      height="550px"
+      class="white--text imageContainer"
+      height="300px"
       :src="require(`@/assets/${ImageName}`)"
     >
     </v-img>
@@ -28,14 +28,19 @@ export default {
 </script>
 
 <style scoped>
-@media (min-width: 768px) {
-  .CardContainer:hover {
+
+.imageContainer{
+  background-size:cover;
+}
+
+.CardContainer:hover {
     transform: translateY(-35px) scale(1.1);
   }
-}
-@media (max-width: 768px) {
+
+@media (max-width: 767px) {
   .CardContainer:hover {
     transform: translateY(-35px);
   }
 }
+
 </style>
